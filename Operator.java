@@ -1,0 +1,15 @@
+import java.security.cert.CertStore;
+
+public class Operator {
+    
+    private String operator;
+
+    public Operator (String operator) {
+        this.operator = operator;
+    }
+
+    public String getOperator () {
+        return this.operator;
+    }  
+
+}
